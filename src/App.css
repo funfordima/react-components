@@ -1,9 +1,11 @@
 .App {
+  height: 100vh;
+  display: flex;
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -15,7 +17,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 5vh;
+  width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +38,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main {
+  width: 80%;
+}
+
+.nav {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.nav a.active {
+  color: #fff;
 }
